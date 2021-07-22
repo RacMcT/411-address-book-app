@@ -19,12 +19,11 @@ function App() {
         }
       )))
       .then(contacts => setUsers(contacts))
-      // .catch(error => console.log('errr', error))-- do I need to add an error message?- ask Matt since was in the whiteboarding tests...
-  
+      
     };
   
     let toggle = (event, id) => {
-      e.preventDefault();
+      event.preventDefault();
       let info = document.getElementById(id);
       let classCurrent = info.className;
       let classNew = classCurrent == 'Show' ? 'Hide' : 'Show';
