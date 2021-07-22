@@ -1,10 +1,35 @@
-.App {
-  text-align: center;
+ul {
+  width: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  list-style-type: none;
+  border-style: solid;
+  border-color: rgb(156, 156, 156);
+  border-width: 1px;
+  padding: 10px 10px 10px 10px;
+}
+
+.Show {
+  display: inline;
+}
+
+.Hide {
+  display: none;
+}
+
+#fullName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.detail {
+  background-color: rgb(139, 180, 235);
+}
+
+.button {
+  width: 60px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
