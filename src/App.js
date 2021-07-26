@@ -19,7 +19,7 @@ function App() {
         }
       )))
       .then(contacts => setUsers(contacts))
-      
+      .catch(error => console.log('errr', error))
     };
   
     let toggle = (event, id) => {
